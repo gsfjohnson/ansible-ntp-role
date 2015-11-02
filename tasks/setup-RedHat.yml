@@ -13,7 +13,7 @@
     group=root
     mode=0644
     backup=yes
-#  notify: svc restart ntp
+  notify: svc restart ntp
 
 - name: enable, start
   service:
