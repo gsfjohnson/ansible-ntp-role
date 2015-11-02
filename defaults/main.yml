@@ -16,3 +16,8 @@ ntp_servers:
     params: iburst
   - host: 3.centos.pool.ntp.org
     params: iburst
+
+ntp_restrict: []
+#  - network: 192.168.1.0 mask 255.255.255.0
+#    params: default kod notrap nomodify
+
