@@ -5,7 +5,7 @@
     pkg={{ntp_pkg_name}}
     state={{ntp_pkg_state}}
 
-- name: /etc/ntpd.conf
+- name: config
   template: 
     src=ntp-{{ansible_os_family}}-{{ansible_distribution_major_version}}.conf.j2
     dest=/etc/ntp.conf

@@ -7,3 +7,12 @@ ntp_svc_name: ntpd
 ntp_svc_state: started
 ntp_svc_enabled: true
 
+ntp_servers:
+  - host: 0.centos.pool.ntp.org
+    params: iburst
+  - host: 1.centos.pool.ntp.org
+    params: iburst
+  - host: 2.centos.pool.ntp.org
+    params: iburst
+  - host: 3.centos.pool.ntp.org
+    params: iburst
