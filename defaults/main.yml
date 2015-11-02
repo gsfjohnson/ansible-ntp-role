@@ -1,0 +1,9 @@
+---
+
+ntp_pkg_name: ntp
+ntp_pkg_state: installed
+
+ntp_svc_name: ntpd
+ntp_svc_state: started
+ntp_svc_enabled: true
+
